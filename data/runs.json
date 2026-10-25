@@ -1,0 +1,224 @@
+[
+  {
+    "id": "8591ee97",
+    "started_at": "2026-10-25T14:22:40.136Z",
+    "dataset": "100",
+    "sampled": 5,
+    "strategy": "llm",
+    "prompt_version": "v2",
+    "model": "openai/gpt-4o-mini",
+    "models": {
+      "llm": "openai/gpt-4o-mini",
+      "dm": null
+    },
+    "accuracy": {
+      "category": 1,
+      "priority": 0.6,
+      "both": 0.6
+    },
+    "mismatches": {
+      "category": 0,
+      "priority": 2
+    },
+    "outcomes": {
+      "ok": 5,
+      "errors": 0,
+      "fallbacks": 0
+    },
+    "latency_ms": {
+      "average": 1929,
+      "total": 3853
+    },
+    "cost_usd": 0.00035805,
+    "tokens": {
+      "input": 1699,
+      "output": 172,
+      "total": 1871
+    }
+  },
+  {
+    "id": "5624211a",
+    "started_at": "2026-10-25T14:22:53.593Z",
+    "dataset": "100",
+    "sampled": 5,
+    "strategy": "dm",
+    "prompt_version": "v2",
+    "model": "vllm-sr/d3",
+    "models": {
+      "llm": null,
+      "dm": "vllm-sr/d3"
+    },
+    "accuracy": {
+      "category": 1,
+      "priority": 0.6,
+      "both": 0.6
+    },
+    "mismatches": {
+      "category": 0,
+      "priority": 2
+    },
+    "outcomes": {
+      "ok": 5,
+      "errors": 0,
+      "fallbacks": 0
+    },
+    "latency_ms": {
+      "average": 408,
+      "total": 749
+    },
+    "cost_usd": 0,
+    "tokens": {
+      "input": 1931,
+      "output": 0,
+      "total": 1931
+    }
+  },
+  {
+    "id": "a3cb97c7",
+    "started_at": "2026-10-25T14:23:23.462Z",
+    "dataset": "100",
+    "sampled": 5,
+    "strategy": "dm+llm",
+    "prompt_version": "v2",
+    "model": "vllm-sr/d3 + openai/gpt-4o-mini",
+    "models": {
+      "llm": "openai/gpt-4o-mini",
+      "dm": "vllm-sr/d3"
+    },
+    "accuracy": {
+      "category": 1,
+      "priority": 1,
+      "both": 1
+    },
+    "mismatches": {
+      "category": 0,
+      "priority": 0
+    },
+    "outcomes": {
+      "ok": 5,
+      "errors": 0,
+      "fallbacks": 3
+    },
+    "latency_ms": {
+      "average": 1581,
+      "total": 3574
+    },
+    "cost_usd": 0.00021105,
+    "tokens": {
+      "input": 2861,
+      "output": 106,
+      "total": 2967
+    }
+  },
+  {
+    "id": "b78983da",
+    "started_at": "2026-10-25T14:25:07.851Z",
+    "dataset": "100",
+    "sampled": 100,
+    "strategy": "llm",
+    "prompt_version": "v2",
+    "model": "openai/gpt-4o-mini",
+    "models": {
+      "llm": "openai/gpt-4o-mini",
+      "dm": null
+    },
+    "accuracy": {
+      "category": 0.91,
+      "priority": 0.59,
+      "both": 0.55
+    },
+    "mismatches": {
+      "category": 9,
+      "priority": 41
+    },
+    "outcomes": {
+      "ok": 100,
+      "errors": 0,
+      "fallbacks": 0
+    },
+    "latency_ms": {
+      "average": 1439,
+      "total": 36352
+    },
+    "cost_usd": 0.007883849999999998,
+    "tokens": {
+      "input": 38659,
+      "output": 3475,
+      "total": 42134
+    }
+  },
+  {
+    "id": "a13cd5f0",
+    "started_at": "2026-10-25T14:26:26.372Z",
+    "dataset": "100",
+    "sampled": 100,
+    "strategy": "dm",
+    "prompt_version": "v2",
+    "model": "vllm-sr/d3",
+    "models": {
+      "llm": null,
+      "dm": "vllm-sr/d3"
+    },
+    "accuracy": {
+      "category": 0.94,
+      "priority": 0.63,
+      "both": 0.62
+    },
+    "mismatches": {
+      "category": 6,
+      "priority": 37
+    },
+    "outcomes": {
+      "ok": 100,
+      "errors": 0,
+      "fallbacks": 0
+    },
+    "latency_ms": {
+      "average": 201,
+      "total": 5440
+    },
+    "cost_usd": 0,
+    "tokens": {
+      "input": 43497,
+      "output": 0,
+      "total": 43497
+    }
+  },
+  {
+    "id": "7b255ab9",
+    "started_at": "2026-10-25T14:27:33.939Z",
+    "dataset": "100",
+    "sampled": 100,
+    "strategy": "dm+llm",
+    "prompt_version": "v2",
+    "model": "vllm-sr/d3 + openai/gpt-4o-mini",
+    "models": {
+      "llm": "openai/gpt-4o-mini",
+      "dm": "vllm-sr/d3"
+    },
+    "accuracy": {
+      "category": 0.93,
+      "priority": 0.64,
+      "both": 0.6
+    },
+    "mismatches": {
+      "category": 7,
+      "priority": 36
+    },
+    "outcomes": {
+      "ok": 100,
+      "errors": 0,
+      "fallbacks": 54
+    },
+    "latency_ms": {
+      "average": 1134,
+      "total": 29449
+    },
+    "cost_usd": 0.0040242,
+    "tokens": {
+      "input": 62901,
+      "output": 1856,
+      "total": 64757
+    }
+  }
+]
